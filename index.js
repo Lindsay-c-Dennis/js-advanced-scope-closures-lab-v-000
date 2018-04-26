@@ -6,7 +6,9 @@ function produceDrivingRange(blockRange) {
     let diff = (blockRange - travelDistance);
     
     if diff >= 0 {
-      return `
+      return `within range by ${diff}`
+    else 
+      return `${Math.abs(diff)} blocks out of range`;
     }
     
     
