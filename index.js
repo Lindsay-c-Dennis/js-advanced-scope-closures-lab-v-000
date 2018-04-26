@@ -1,5 +1,5 @@
 function produceDrivingRange(blockRange) {
   return function(startBlock, endBlock) {
-    Math.abs(endBlock - startBlock) <= blockRange;
+    Math.abs(parsint(endBlock) - parsInt(startBlock)) <= blockRange;
   };
 }
