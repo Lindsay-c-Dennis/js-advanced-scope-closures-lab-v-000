@@ -1,5 +1,5 @@
-function produceDrivingRange(max) {
+function produceDrivingRange(blockRange) {
   return function withinRange(distance) {
-    return distance <= max;
+    return distance <= blockRange;
   };
 }
