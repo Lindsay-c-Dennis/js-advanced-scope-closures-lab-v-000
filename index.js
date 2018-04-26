@@ -1,1 +1,1 @@
-const produceDrivingRange = function 
+function produceDrivingRange() = function 
