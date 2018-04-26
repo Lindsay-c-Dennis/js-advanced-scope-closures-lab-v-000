@@ -10,8 +10,6 @@ function produceDrivingRange(blockRange) {
     } else {
       return `${Math.abs(diff)} blocks out of range`;
     }
-    
-    
-    
   };
 }
+
